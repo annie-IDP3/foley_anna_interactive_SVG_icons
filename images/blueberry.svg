@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 170.01 176.96">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke: #040407;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #2a3592;
+      }
+
+      .cls-3 {
+        fill: #5a62ad;
+      }
+
+      .cls-4 {
+        fill: #261e1e;
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-2);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="20.51" y1="163.48" x2="20.79" y2="163.2" gradientUnits="userSpaceOnUse">
+      <stop offset=".18" stop-color="#224096"/>
+      <stop offset=".34" stop-color="#23499c"/>
+      <stop offset=".75" stop-color="#285fac"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="76.34" y1="97.25" x2="176.09" y2="97.25" gradientTransform="translate(19.62 -18.08) rotate(14.16)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#063f5f"/>
+      <stop offset=".71" stop-color="#133f62"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_2-2" data-name="Layer 2">
+    <ellipse class="cls-1" cx="85.01" cy="98.99" rx="84.51" ry="77.48"/>
+    <ellipse class="cls-2" cx="49.32" cy="42.6" rx="10.36" ry="9.55"/>
+    <path class="cls-5" d="M166.93,117.78c-11.39,41.59-57.2,66.8-102.32,56.31-45.12-10.5,44-33.02,55.39-74.61,11.39-41.59-59.28-86.52-14.15-76.02s72.47,52.73,61.08,94.32Z"/>
+    <polygon class="cls-4" points="85.58 76.73 55.04 64.36 29.69 84.34 33.01 53.74 4.56 37.69 37.16 31.15 44.93 1.24 61.75 27.8 95 25.37 72.8 48.32 85.58 76.73"/>
+    <ellipse class="cls-3" cx="51.95" cy="45.07" rx="8.43" ry="7.77"/>
+  </g>
+</svg>

@@ -1,0 +1,102 @@
+body {
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.hidden { 
+    display: none; 
+}
+
+#icon-container {
+    display: flex;
+    justify-content: center;
+}
+
+#icon-container div {
+    width: 400px;
+}
+
+p {
+    margin-bottom: 150px;
+}
+
+#orange:hover object{
+    animation: spin 2s linear 1; 
+    transform-origin: center; 
+    margin-right: 30px;
+}
+
+#strawberry-seeds:hover object {
+animation: fadeInOut 2s ease-in-out 1;
+transform-origin: center;
+
+}
+
+#raspberry:hover object{
+    animation: pulseGlow 2s linear 1;
+    transform-origin: center;
+}
+
+#mango:hover object{
+    animation: stretchHorizontal 2s linear 1;
+    transform-origin: center;
+}
+
+
+#blueberry:hover object{
+    animation: rubberBand 2s linear 1;
+    transform-origin: center;
+}
+
+#peach:hover object{
+    animation: wiggle 2s ease-in-out 1;
+    transform-origin: center;
+}
+
+@keyframes pulseGlow {
+  0% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 0px rgba(0, 150, 255, 0));
+  }
+  50% {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 8px rgba(0, 150, 255, 0.8));
+  }
+  100% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 0px rgba(0, 150, 255, 0));
+  }
+}
+
+@keyframes spin { 
+    from { transform: rotate(0deg); }
+     to { transform: rotate(360deg); } 
+    }
+
+@keyframes fadeInOut {
+     0%, 100% { opacity: 1;} 
+     50% { opacity: 0; } 
+    }
+
+@keyframes stretchHorizontal {
+  0% {transform: scaleX(1);}
+  50% {transform: scaleX(1.5);}
+  100% { transform: scaleX(1);}
+}
+
+@keyframes rubberBand {
+    0% {transform:scale(1,1)}
+    50% {transform:scale(0.1,2)}
+    100% {transform:scale(1,1)}
+}
+
+@keyframes wiggle {
+    0% {transform: rotate(0deg)}
+    25% {transform: rotate(10deg)}
+    50% {transform: rotate(0deg)}
+    100% {transform: rotate(-10deg)}
+}
